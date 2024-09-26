@@ -41,7 +41,7 @@ img {
     background-image: url(images/Isfahan.jpg);
     background-size: cover;
     padding: 20px 0;
-    width:100%;
+    width:720px;
     color: #F1FAEE;
     display: flex;
     flex-direction: column;
