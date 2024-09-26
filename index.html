@@ -49,24 +49,5 @@
                 <img  id="avatar" src="images/per.jpg" alt="my cat photo">
              </div>
         </div>
-        <script>
-             const images = [
-                 'images/Isfahan.jpg',
-                 'images/isfahan2.jpg',
-                 'images/isfahan3.jpg'
-            ];
-            let currentIndex = 0;
-
-            const hero = document.getElementById('hero');
-
-            function updateBackground() {
-            hero.style.backgroundImage = `url(${images[currentIndex]})`;
-            }
-            updateBackground();
-            setInterval(() => {
-            currentIndex = (currentIndex + 1) % images.length;
-            updateBackground();
-               }, 3000);
-        </script>
     </body>
 </html>
